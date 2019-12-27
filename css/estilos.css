@@ -14,6 +14,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.imagen-logo{
+    fill: #ffffff;
+}
 .header-right{
     height: inherit;
     display: flex;
