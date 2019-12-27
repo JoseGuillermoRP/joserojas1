@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/micv.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139987547-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-139987547-1');
+  </script>
+</head>
+<body>
+    <header>
+        <a href=""><img src="imagenes/Recurso%201.png" alt="" height="50"></a>
+        <div class="header-right">
+        <nav>
+            <ul>
+                <li><a href="micv.html" class="is-active">Mi CV </a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="index.html" >Portafolio</a></li>
+                <li><a href="">Certificado</a></li>
+            
+            </ul>
+        </nav>    
+            <a href="#" class="button red">Contacto</a>
+        </div>
+        </header>
+        <main>
+            <section id="portada" class="contenedor">
+                <article id="perfil">
+                    <img src="joserojas.jpg" alt="">
+                </article>
+                <article id="descripcion">
+                    <h3>Jose Guillermo Rojas Paredes</h3>
+    <p>Estudiante de Desarrollo de Sistemas con mención a inteligencia de negocios y aplicativos móviles del instituto ZEGEL
+    IPAE, quinto ciclo en curso. Interés en diseño y maquetaciones web o aplicativos móviles.</p>
+                </article>
+            </section>
+            <section id="tecnologia" class="contenedor">
+                <article class="tecnologia">
+                    <img src="html-5.png" alt="">
+                    <h3>HTML</h3>
+                </article >
+                <article class="tecnologia">
+                    <img src="css-3.png" alt="">
+                    <h3>CSS</h3>
+                </article >
+                <article class="tecnologia">
+                    <img  class="js" src="javascript-seeklogo.com.svg"  alt="">
+                    <h3>Java Script</h3>
+                </article>
+            </section>
+            <section id="informacion" class="contenedor">
+    <div class="imagen-cronos">
+        <img src="Logo.png" alt="">
+    </div>
+                <article class="cronos">
+                 
+                    <h3>MundoCronos SAC</h3>
+                    <p>Empresa dedicada a la Fotografía y creación eventos de entretenimiento de clase A.</p>
+                    <h4>Funciones:</h4>
+                    <p>Diseñar y codificar la web principal de Cronos.</p>
+    
+                    <a href="https://joseguillermorp.github.io/MundoCronos/index.html">ir a la pagina</a>
+    
+                </article>
+            </section>
+    
+        </main>
+        <footer class="footer">
+            <h4>contactame:</h4>
+            <p><a href="tel:969198897" class="icon-phone">969198897</a></p>
+            <div class="redes">
+    <a href="mailto:jrojasp1992@gmail.com" class="icon-mail"></a> 
+    <a href="https://www.facebook.com/Joserojasdeveloper/" class="icon-facebook"></a>
+    <a href="https://twitter.com/joserojaspared1?lang=es" class="icon-twitter"></a> 
+    <a href="https://www.instagram.com/joserojasfrontend/"class="icon-instagram"></a>
+    <a href="https://www.youtube.com/channel/UCoU4AiTg7f0A7jX3wFm11HQ?view_as=subscriber" class="icon-youtube"></a>
+    <a href="https://www.linkedin.com/in/jos%C3%A9-guillermo-rojas-paredes/" class="icon-linkedin"></a> 
+    
+    <a href=""class="icon-github"></a>
+            </div>
+           
+        </footer>
+    <section class="chat-container">
+        <div class="chat-button">
+            Chat de Facebook
+        </div>
+        <div class="chat-content">
+       <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJoserojasfrontend&tabs=messages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+    
+            $(".chat-button").on('click', function (e) {
+                e.preventDefault();
+                $(".chat-content").slideToggle('fast');
+            });
+        });
+    
+      
+    </script>
+</body>
+</html>

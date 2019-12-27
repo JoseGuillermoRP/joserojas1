@@ -1,0 +1,239 @@
+     @import url('https://fonts.googleapis.com/css?family=Gugi');
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+  
+
+     
+     body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gugi', cursive;
+        /* font-family: 'Ubuntu', sans-serif; */
+        }
+        
+    .contenedor{
+  display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           width: 100%;
+            
+    }
+#portada{
+    margin-top: 10%;
+}
+#perfil img{
+    border: solid 10px orange;
+    width: 200px;
+    border-radius: 50%;
+}
+#descripcion h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+#descripcion p{
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.1em;
+}
+#tecnologia{
+    margin-top:  5%;
+}
+#tecnologia article{
+    margin-top: 20px;
+    margin-left: 20px;
+    border:solid 2px black;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+#tecnologia img{
+  display: block;
+  margin: auto;
+    margin-top: 50px;
+width: 150px;
+}
+
+#informacion{
+    width: 100%;
+ 
+}
+#informacion article{
+    width: 50%;
+    margin: auto;
+ 
+}
+
+#informacion img{
+    display: block;
+    margin: auto;
+width: 350px;
+
+}
+#informacion img:hover{
+    background: #138D75;
+    border: solid 5px #138D75;
+   
+}
+
+#informacion h3{
+    text-align: center;
+}
+#informacion p h4{
+    text-align: justify;
+}
+#informacion a{
+    text-decoration:none;
+    color: #000;
+    padding: 10px;
+    border:solid 1px;
+    border-radius:5px;
+    text-align: center;
+display: block;
+    margin: auto;
+
+}
+#informacion a:hover{
+    background: #138D75;
+    color: #fff;
+
+}
+.footer{
+    text-align: center;
+height: 200px;
+color: #fff;
+background: #333;
+}
+.footer h4{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.footer p {
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 20px;
+    transform:translateY(-100%);
+}
+.footer a{
+    color: #fff;
+text-decoration: none;
+}
+
+.redes{
+    font-size:40px; 
+justify-content: center;
+    background: orange;
+ height: 60px;
+    width: 100%;
+}
+.redes a{
+    color: white;
+    text-decoration: none;
+
+}
+.icon-facebook, .icon-youtube, .icon-instagram, .icon-twitter,.icon-linkedin,.icon-mail{
+text-decoration: none;
+font-size: 25px;
+margin-top: 5px;
+color: white;
+
+}
+
+.chat-container{
+	width: 100%;
+	margin:0;
+	padding:0;
+	max-width: 340px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 999;
+}
+
+
+.chat-button{
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+	padding: 4px 0;
+	background-color: #337AB7;
+text-align: center;
+    color: #fff;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chat-content{
+	margin: 0;
+	padding: 0;
+	display: none;
+	background-color: #fff;
+}
+
+@media screen and (min-width:480px){
+    
+#informacion h3{
+    font-size: 30px;
+}
+    footer h4{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+footer p{
+    margin-bottom: 0;
+    font-size: 20px;
+    transform:translateY(-100%);
+}
+
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:1024px){
+    #portada h2{
+        font-size: 40px;
+    }
+    
+    #portada{
+        width: 900px;
+        flex-wrap: nowrap;
+    margin-top: 40px;
+}
+#tecnologia{
+margin-top: 10px;
+}
+    .contenedor{
+       margin: auto;
+        width: 90%;
+        max-width: 1000px;
+    }
+    #informacion{
+        margin-top: 10px;
+        display: flex;
+
+    }
+    #informacion img{
+        margin-top: 10px;
+
+    }
+    .footer{
+        margin-top: 10px;
+    }
+
+
+}
+@media screen and (min-width:1600px){
+        #informacion img{
+        margin-top: 10px;
+  width: 450px;  
+    }
+ #informacion p{
+     font-size: 20px;
+ }
+ #informacion h4{
+font-size: 25px;
+ }
+}
