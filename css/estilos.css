@@ -100,6 +100,7 @@ h1{
 }
 .portada{
 /*    border: 10px solid #ff4842 ;*/
+
     position: relative;
     margin-bottom: 20px;
 }
@@ -107,9 +108,11 @@ h1{
     width: 1000px;
     margin: 0 auto;
 }
-
+.portada img{
+transform: translateX(10px);
+}
 .portada .description{
-    background: rgb(255,255,255, .5);
+    background:#3333;
     position: absolute;
     bottom:30px;
     left: 20px;
