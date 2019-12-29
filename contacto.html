@@ -12,6 +12,7 @@
     <header>
         <a href=""><img src="imagenes/logoblanco.png" alt="" height="35"></a>
         <div class="header-right">
+            <img class="menu-icon" src="imagenes/menu.png" alt="">
         <nav>
             <ul>
                 <li><a href="micv.html">Mi CV </a></li>
@@ -24,6 +25,44 @@
             <a href="#" class="button red" class="is-active">Contacto</a>
         </div>
         </header>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+             
+        <script>
+
+            $(document).ready(function(){
+            
+            $(window).scroll(function(){
+              scroll = $(window).scrollTop();
+              if (scroll > 100) {
+                $('.menu').css({"position":"fixed"});
+                $('.menu').css({"width":"100%"});
+                $('.menu').css({"top":"0"});
+                $('.menu').css({"background":"#fff"});
+                $('.menu a').css({"color":"#000"});
+                $('.logo').css({"color":"#000"});
+                $('.menu').css({"box-shadow":"rgba(0, 0, 0, 0.22) 6px 1px 1px"});
+                $('.menu').css({"z-index":"100"});
+              } else {
+                $('.menu').css({"position":"relative"});
+                $('.menu').css({"background":"transparent"});
+                $('.menu').css({"box-shadow":"0 0 0"});
+                $('.menu a').css({"color":"#fff"});
+                $('.logo').css({"color":"#fff"});
+              }
+            })
+            
+            $('.menu-icon').click(function(){
+              $('header nav').slideToggle();
+            })
+            
+            })
+            
     
+            
+            </script> 
+            
 </body>
 </html>
