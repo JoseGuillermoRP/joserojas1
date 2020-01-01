@@ -208,6 +208,7 @@ cursor: pointer;
 }
 
 header nav {
+z-index: 400;
   position: absolute;
   top: 50px;
   left: 0;
