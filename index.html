@@ -25,6 +25,7 @@
     <header>
     <a href=""><img src="imagenes/logoblanco.png" alt="" height="35"></a>
     <div class="header-right">
+        <img class="menu-icon" src="imagenes/menu.png" alt="">
     <nav>
         <ul>
             <li><a href="micv.html">Mi CV </a></li>
@@ -191,5 +192,23 @@
     
       
     </script>
+    <!-------script responsive-->
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+                 
+            <script>
+    
+                $(document).ready(function(){
+                $('.menu-icon').click(function(){
+                  $('header nav').slideToggle();
+                })
+                
+                })
+                
+        
+                
+                </script> 
 </body>
 </html>
