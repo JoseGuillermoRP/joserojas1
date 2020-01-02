@@ -254,5 +254,36 @@ width: 100%;
    nav a.is-active{
     background-color:  #7dcd40;
 }
+.portada{
+    width: 100%;
+}
+.portada img{
+    width: 100%;
+    transform: translateX(0px);
+
+
+}
+.portada .description{
+position: static;
+text-align: center;
+}
+.autor img{
+    width: 50px;
+    height: 50px;
+}
+.autor{
+    justify-content: space-around;
+    font-size: 16px;
+}
+.blog{
+    width: 100%;
+}
+.blog-item{
+    justify-content: center;
+}
+.paginador{
+    flex-wrap: wrap;
+}
+
  
 }    
